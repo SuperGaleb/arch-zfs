@@ -10,7 +10,7 @@ $ curl -s https://raw.githubusercontent.com/eoli3n/archiso-zfs/master/init | bas
 
 # Get install scripts
 $ git clone https://github.com/SuperGaleb/arch-zfs.git
-$ cd arch-zfs-encrypted/install
+$ cd arch-zfs/arch-zfs-encrypted/install
 $ ./01-configure.sh
 $ ./02-install.sh
 ```
