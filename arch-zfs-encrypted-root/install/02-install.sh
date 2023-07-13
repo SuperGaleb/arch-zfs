@@ -44,8 +44,6 @@ pacstrap /mnt       \
   wget              \
   rsync             \
   openssh           \
-  xorg              \ 
-  xorg-xinit        \
   wpa_supplicant
 
 # Generate fstab excluding ZFS entries
