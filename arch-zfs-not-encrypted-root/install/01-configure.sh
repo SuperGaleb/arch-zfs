@@ -162,7 +162,7 @@ print "Is this the first install or a second install to dualboot ?"
 install_reply=$(menu first dualboot)
 
 select_disk
-zfs_passphrase
+#zfs_passphrase
 
 # If first install
 if [[ $install_reply == "first" ]]
