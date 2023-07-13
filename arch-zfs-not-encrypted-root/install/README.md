@@ -6,12 +6,11 @@ Boot latest archiso
 $ loadkeys us
 
 # Init ZFS module and install git
-$ curl -s https://raw.githubusercontent.com/eoli3n/archiso-zfs/master/init | bash
-
 $ git clone https://github.com/SuperGaleb/arch-zfs.git
 $ cd arch-zfs/arch-zfs-not-encrypted-root/install
 $ chmod +x 01-configure.sh
 $ chmod +x 02-install.sh
+$ curl -s https://raw.githubusercontent.com/eoli3n/archiso-zfs/master/init | bash
 $ ./01-configure.sh
 $ ./02-install.sh
 ```
