@@ -9,7 +9,7 @@ $ loadkeys us
 $ curl -s https://raw.githubusercontent.com/eoli3n/archiso-zfs/master/init | bash
 
 $ git clone https://github.com/SuperGaleb/arch-zfs.git
-$ cd arch-zfs/arch-zfs-encrypted/install
+$ cd arch-zfs/arch-zfs-not-encrypted-root/install
 $ chmod +x 01-configure.sh
 $ chmod +x 02-install.sh
 $ ./01-configure.sh
