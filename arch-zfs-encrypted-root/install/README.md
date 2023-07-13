@@ -13,6 +13,8 @@ $ git clone https://github.com/SuperGaleb/arch-zfs.git
 $ cd arch-zfs/arch-zfs-encrypted/install
 $ chmod +x 01-configure.sh
 $ chmod +x 02-install.sh
+$ ./01-configure.sh
+$ ./02-install.sh
 ```
 
 ### DualBoot Support
