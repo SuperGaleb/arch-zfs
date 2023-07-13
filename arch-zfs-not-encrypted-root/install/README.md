@@ -3,7 +3,7 @@
 Boot latest archiso
 
 ```bash
-$ loadkeys fr
+$ loadkeys us
 
 # Init ZFS module and install git
 $ curl -s https://raw.githubusercontent.com/eoli3n/archiso-zfs/master/init | bash
