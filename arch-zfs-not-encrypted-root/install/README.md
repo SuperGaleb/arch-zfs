@@ -6,7 +6,7 @@ Boot latest archiso
 $ loadkeys us
 
 # Init ZFS module and install git
-$ git clone https://github.com/SuperGaleb/arch-zfs.git
+$ git clone --recursive https://github.com/SuperGaleb/arch-zfs.git
 $ cd arch-zfs/arch-zfs-not-encrypted-root/install
 $ chmod +x 01-configure.sh
 $ chmod +x 02-install.sh
