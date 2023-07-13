@@ -14,8 +14,9 @@ $ chmod +x 02-install.sh
 $ ./01-configure.sh
 $ ./02-install.sh
 
-When asked enter root and user password do it very carefully (slowly), script will NOT warn you if passwords did not match and it will keep going till end.
-System will not boot after install.
+When asked enter root and user password do it very carefully (slowly),
+script will NOT warn you if passwords did not match and it will keep going till end.
+System will NOT boot after install.
 I choose password 123 for root and for user, once system is up, running and "happy please change both to your liking. 
 ```
 
