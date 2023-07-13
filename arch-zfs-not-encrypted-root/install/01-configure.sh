@@ -72,15 +72,6 @@ partition () {
     mkfs.vfat "$EFI"
 }
 
-#zfs_passphrase () {
-#    # Generate key
-#    print "Set ZFS passphrase"
-#    read -r -p "> ZFS passphrase: " -s pass
-#    echo
-#    echo "$pass" > /etc/zfs/zroot.key
-#    chmod 000 /etc/zfs/zroot.key
-}
-
 create_pool () {
     # ZFS part
     ZFS="$DISK-part3"
