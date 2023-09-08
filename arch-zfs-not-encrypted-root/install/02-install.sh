@@ -44,6 +44,7 @@ pacstrap /mnt       \
   wget              \
   rsync             \
   openssh           \
+  refind            \
   wpa_supplicant
 
 # Generate fstab excluding ZFS entries
@@ -75,7 +76,7 @@ MODULES=(i915 intel_agp)
 BINARIES=()
 FILES=()
 HOOKS=(base udev autodetect modconf block keyboard keymap zfs filesystems)
-COMPRESSION="zstd"
+COMPRESSION="lz4"
 EOF
 
 cat > /mnt/etc/mkinitcpio.d/linux-lts.preset <<"EOF"
